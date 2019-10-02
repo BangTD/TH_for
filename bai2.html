@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai2</title>
+</head>
+<body>
+<h1>Moi ban nhap so</h1>
+<input id="demo">
+<button type="button" onclick="sum()">click</button>
+<p id="demop"></p>
+<script>
+function sum() {
+    let a = document.getElementById("demo").value;
+    var i = 1;
+    var j=0;
+    for (i; i <= a;i++){
+        j +=i;
+    }
+    document.getElementById("demop").innerHTML ="Tong = " + j;
+}
+</script>
+</body>
+</html>
